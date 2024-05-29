@@ -1,6 +1,11 @@
 body{
     background-color: #ced6f0;
-    width: 100vh;
+}
+
+.contener{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
 .container{
@@ -8,9 +13,13 @@ body{
     background-color: #ffffff;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
+    width: 100vh;
+    border: 1px solid black;
     
 }
 
 .item1{
     text-align: center;
+    border:1px solid saddlebrown;
 }
