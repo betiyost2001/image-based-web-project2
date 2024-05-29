@@ -26,7 +26,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 34px;
 }
-.tripify{
+.item1 h1{
     font-weight: 800;
     letter-spacing: -2.5px;
 }
@@ -48,7 +48,7 @@ h2{
     word-spacing: -2px;
 }
 
-.cont-h2{
+.item2 p{
     font-size: 17px;
     color:#62676a ;
     margin: -20px 0px 0 3px ;
@@ -65,12 +65,12 @@ hr{
     margin: -22px 0px 0px 63px;
 }
 
-.email{
+.item3 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
 }
 
-.emailSegundaParte{
+.item3 input{
     width: 90%;
     padding: 20px 20px;
     margin: -3px 0px 0px 0px;
@@ -84,12 +84,12 @@ hr{
     margin: 0px 0px 0px 63px;
 }
 
-.password{
+.item4 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
 }
 
-.passSegundaParte{
+.item4 input{
     width: 90%;
     padding: 20px 20px;
     margin: -3px 0px 0px 0px;
@@ -103,7 +103,7 @@ hr{
     margin: 40px 0px 0px 63px ;
 }
 
-.boton{
+.item5 a{
     border:2px solid #367bf5;
     background-color: #367bf5;
     border-radius: 5px;
@@ -115,12 +115,31 @@ hr{
     transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
-.boton:hover{
+.item5 a:hover{
     background-color: #367cf52c;
     color: #367cf5;
     border-color:#367cf591 ;
 }
 
 .item6{
-    margin: 31px 0px;
+    margin: 60px 0px 60px 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
+
+.item6 p{
+    color: #757a7c;
+    display: inline;
+    
+}
+
+.item6 a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+.item6 a:hover{
+    color: #367bf5;
+}
+
