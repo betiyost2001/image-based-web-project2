@@ -1,0 +1,16 @@
+body{
+    background-color: #ced6f0;
+    width: 100vh;
+}
+
+.container{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.item1{
+    text-align: center;
+}
