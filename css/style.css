@@ -55,3 +55,8 @@ h2{
     /* transform: scale(1, 0.9);
     line-height: 20px; */
 }
+
+hr{
+    margin: 41px 70px;
+    background-color: #e3e5e6;
+}
